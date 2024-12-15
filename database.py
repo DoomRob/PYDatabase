@@ -6,11 +6,11 @@ import os
 # Root
 root = Tk()
 root.title("My Code")
-root.iconbitmap('c:/Users/corru/OneDrive/Documents/Python/GUI')
+root.iconbitmap('c:/Users/Documents/Python/GUI')
 root.geometry("400x400")
 
 # Creating a Database
-db_dir = 'c:/Users/corru/OneDrive/Documents/Python/GUI/'
+db_dir = 'c:/Users/Documents/Python/GUI/'
 db_path = os.path.join(db_dir, 'wresting.db')
 
 connect = None
